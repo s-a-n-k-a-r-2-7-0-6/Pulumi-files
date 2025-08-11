@@ -1,34 +1,22 @@
-# Using AWS Elastic Kubernetes Service (EKS) | Crosswalk | Pulumi Docs
-1.  [Docs](https://www.pulumi.com/docs/)
-2.  [Pulumi IaC](https://www.pulumi.com/docs/iac/)
-3.  [Clouds](https://www.pulumi.com/docs/iac/clouds/)
-4.  [AWS](https://www.pulumi.com/docs/iac/clouds/aws/)
-5.  [Guides](https://www.pulumi.com/docs/iac/clouds/aws/guides/)
-6.  [EKS](https://www.pulumi.com/docs/iac/clouds/aws/guides/eks/)
+
 
 AWS Elastic Kubernetes Service (EKS)
 ------------------------------------
 
-On this page
-------------
 
-On this page
-------------
 
-[![](https://www.pulumi.com/images/docs/reference/crosswalk/aws/logo.svg)](/docs/iac/clouds/aws/guides/)
-
-[Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on AWS. Amazon EKS runs the Kubernetes management infrastructure for you across multiple AWS availability zones to eliminate a single point of failure. Amazon EKS is certified Kubernetes conformant so you can use existing tooling and plugins from partners and the Kubernetes community. Applications running on any standard Kubernetes environment are fully compatible and can be easily migrated to Amazon EKS.
+Amazon Elastic Kubernetes Service (Amazon EKS) makes it easy to deploy, manage, and scale containerized applications using Kubernetes on AWS. Amazon EKS runs the Kubernetes management infrastructure for you across multiple AWS availability zones to eliminate a single point of failure. Amazon EKS is certified Kubernetes conformant so you can use existing tooling and plugins from partners and the Kubernetes community. Applications running on any standard Kubernetes environment are fully compatible and can be easily migrated to Amazon EKS.
 
 Overview
 --------
 
 Pulumi Crosswalk for AWS simplifies the creation, configuration, and management of EKS clusters, in addition to offering a single programming model and deployment workflow that works for your Kubernetes application configuration, in addition to infrastructure. This support ensures your EKS resources are fully integrated properly with the related AWS services. This includes
 
-*   [ECR](https://www.pulumi.com/docs/clouds/aws/guides/ecr/) for private container images
-*   [ELB](https://www.pulumi.com/docs/clouds/aws/guides/elb/) for load balancing
-*   [IAM](https://www.pulumi.com/docs/clouds/aws/guides/iam/) for security
-*   [VPC](https://www.pulumi.com/docs/clouds/aws/guides/vpc/) for network isolation
-*   [CloudWatch](https://www.pulumi.com/docs/clouds/aws/guides/cloudwatch/) for monitoring
+*   [ECR]for private container images
+*   [ELB] for load balancing
+*   [IAM]for security
+*   [VPC]for network isolation
+*   [CloudWatch]for monitoring
 
 Amazon EKS runs up-to-date versions of the open-source Kubernetes software, so you can use all the existing plugins and tooling from the Kubernetes community, including Pulumi’s support for deploying Helm charts. Applications running on Amazon EKS are fully compatible with applications running on any standard Kubernetes environment, whether running in on-premises data centers or public clouds, easing porting from other Kubernetes environments to EKS.
 
